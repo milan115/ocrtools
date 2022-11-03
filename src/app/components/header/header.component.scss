@@ -1,0 +1,36 @@
+#header {
+    .brand-name {
+        font-size: 1.5rem !important;
+        color: #ffffff;
+    }
+
+    .brand:hover {
+        text-decoration: none;
+    }
+
+    .social-icon {
+        a {
+            text-align: center;
+        }
+
+        i {
+            background: #f44336;
+            font-size: 14px;
+            color: #ffffff;
+            height: 40px;
+            width: 40px;
+            line-height: 40px;
+            font-weight: 500;
+            border-radius: 10px 10px 10px 0px;
+            margin-right: 10px;
+        }
+
+        i:hover {
+            background: #fb397d;
+            color: #fff;
+            -webkit-transition-duration: 500ms;
+            -o-transition-duration: 500ms;
+            transition-duration: 500ms;
+        }
+    }
+}
